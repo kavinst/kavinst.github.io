@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" role="img" aria-labelledby="momentSnowTitle">
+  <title id="momentSnowTitle">大雪中的校园路灯与长椅插画</title>
+  <defs>
+    <linearGradient id="sky" x1="300" y1="0" x2="300" y2="590" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#baa6c9"/>
+      <stop offset=".42" stop-color="#d9b8ce"/>
+      <stop offset="1" stop-color="#f3d0ce"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="300" y1="480" x2="300" y2="800" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff9f8"/>
+      <stop offset="1" stop-color="#ecdfea"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(166 296) rotate(90) scale(190)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe6b4" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ffe6b4" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="10"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="600" height="800" fill="url(#sky)"/>
+  <circle cx="465" cy="126" r="57" fill="#f9e6e6" opacity=".55"/>
+  <path d="M0 455c87-42 160-47 241-14 78 32 148 26 231-4 46-16 87-17 128-4v367H0V455Z" fill="#cfb7c7" opacity=".7"/>
+  <path d="M0 524c92-30 169-28 247 4 86 35 167 33 258 1 35-12 65-14 95-8v279H0V524Z" fill="url(#ground)"/>
+
+  <circle cx="166" cy="296" r="190" fill="url(#glow)"/>
+  <g>
+    <path d="M159 800V280" stroke="#6f5b66" stroke-width="11" stroke-linecap="round"/>
+    <path d="M159 290c-41-25-76-26-106-3M159 287c39-28 76-31 112-9" fill="none" stroke="#6f5b66" stroke-width="5" stroke-linecap="round"/>
+    <path d="M57 291h216" stroke="#6f5b66" stroke-width="5" stroke-linecap="round"/>
+    <path d="M126 240h73l23 38H102l24-38Z" fill="#5f4d59"/>
+    <path d="M139 278h47l10 52h-67l10-52Z" fill="#ffe7b7"/>
+    <path d="M139 278h47l10 52h-67l10-52Z" fill="none" stroke="#705b63" stroke-width="2"/>
+    <ellipse cx="168" cy="338" rx="74" ry="13" fill="#ffd9a4" opacity=".35" filter="url(#blur)"/>
+    <path d="M148 381h21v419h-21z" fill="#fff8f5" opacity=".55"/>
+  </g>
+
+  <g>
+    <path d="M385 585c-17-96-9-181 24-256" fill="none" stroke="#6d5962" stroke-width="5" stroke-linecap="round"/>
+    <path d="M390 512c29-22 48-49 57-81M394 457c-26-18-43-41-49-69M401 405c22-17 36-39 42-63" fill="none" stroke="#6d5962" stroke-width="3.4" stroke-linecap="round"/>
+    <g fill="#ecdfe7">
+      <circle cx="404" cy="492" r="27"/>
+      <circle cx="365" cy="450" r="22"/>
+      <circle cx="443" cy="427" r="24"/>
+      <circle cx="457" cy="362" r="19"/>
+      <circle cx="370" cy="387" r="16"/>
+    </g>
+    <path d="M374 518h42l-6 27h-31l-5-27Z" fill="#9a7f87" opacity=".8"/>
+  </g>
+
+  <g>
+    <path d="M413 643h142v11H413z" fill="#896b73"/>
+    <path d="M429 654v60M538 654v60" stroke="#795e68" stroke-width="7"/>
+    <path d="M413 625h142M429 625v18M538 625v18" stroke="#94767e" stroke-width="9" stroke-linecap="round"/>
+    <path d="M410 623c-13-28-8-52 14-70M416 629c26-10 48-7 66 8M557 627c18-20 40-24 64-13" fill="none" stroke="#fff9f7" stroke-width="13" stroke-linecap="round"/>
+    <path d="M456 468c48-4 85 17 112 62-45 6-84-15-112-62Z" fill="#d6909e"/>
+    <path d="M456 468c27 37 41 73 41 108-36-14-53-47-41-108Z" fill="#b96e82"/>
+    <path d="M456 468c44 5 76 28 95 69" stroke="#f4c4c7" stroke-width="2" fill="none" stroke-dasharray="5 5"/>
+  </g>
+
+  <g fill="#e5cbd5" opacity=".6">
+    <ellipse cx="201" cy="646" rx="7" ry="3.5" transform="rotate(30 201 646)"/>
+    <ellipse cx="227" cy="674" rx="6" ry="3" transform="rotate(27 227 674)"/>
+    <ellipse cx="263" cy="649" rx="5.5" ry="2.8" transform="rotate(33 263 649)"/>
+    <ellipse cx="296" cy="687" rx="7" ry="3.2" transform="rotate(28 296 687)"/>
+    <ellipse cx="332" cy="656" rx="5" ry="2.6" transform="rotate(31 332 656)"/>
+  </g>
+
+  <g fill="#fffaf8">
+    <circle cx="58" cy="125" r="4.5"/>
+    <circle cx="111" cy="187" r="2.8"/>
+    <circle cx="205" cy="112" r="3.8"/>
+    <circle cx="287" cy="176" r="2.2"/>
+    <circle cx="356" cy="102" r="4.1"/>
+    <circle cx="438" cy="211" r="2.8"/>
+    <circle cx="521" cy="124" r="3.6"/>
+    <circle cx="559" cy="240" r="2.4"/>
+    <circle cx="82" cy="349" r="3"/>
+    <circle cx="286" cy="302" r="2.7"/>
+    <circle cx="352" cy="363" r="2.1"/>
+    <circle cx="503" cy="332" r="3.2"/>
+    <circle cx="551" cy="390" r="2"/>
+    <circle cx="126" cy="452" r="2.6"/>
+    <circle cx="237" cy="412" r="2"/>
+    <circle cx="300" cy="374" r="1.8"/>
+  </g>
+
+  <g fill="#fffaf8" opacity=".8">
+    <path d="M523 284c1.4 4.8 3.5 6.9 8.3 8.3-4.8 1.4-6.9 3.5-8.3 8.3-1.4-4.8-3.5-6.9-8.3-8.3 4.8-1.4 6.9-3.5 8.3-8.3Z"/>
+    <path d="M91 253c1.1 3.8 2.7 5.4 6.5 6.5-3.8 1.1-5.4 2.7-6.5 6.5-1.1-3.8-2.7-5.4-6.5-6.5 3.8-1.1 5.4-2.7 6.5-6.5Z" opacity=".6"/>
+  </g>
+
+  <text x="52" y="743" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="4.7" fill="#9a7d8a">FIRST SNOW · MUDANJIANG</text>
+  <path d="M52 758h139" stroke="#b696a0" stroke-width="1" opacity=".55"/>
+
+  <rect width="600" height="800" filter="url(#grain)" opacity=".12" style="mix-blend-mode:multiply"/>
+  <rect x="12" y="12" width="576" height="776" rx="2" fill="none" stroke="#fffaf8" stroke-width="1.2" opacity=".38"/>
+</svg>

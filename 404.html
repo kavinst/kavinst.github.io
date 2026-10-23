@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, follow">
+  <meta name="theme-color" content="#fff7f9">
+  <title>页面走丢了 · 胡欣蕊的小宇宙</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .notfound {
+      display: grid;
+      place-items: center;
+      min-height: 100svh;
+      padding: 40px 24px;
+      text-align: center;
+    }
+    .notfound-inner {
+      position: relative;
+      width: min(560px, 100%);
+      padding: 56px 36px 46px;
+    }
+    .notfound-code {
+      margin: 0 0 8px;
+      color: var(--pink);
+      font-family: var(--font-serif);
+      font-size: clamp(96px, 20vw, 168px);
+      line-height: .8;
+      letter-spacing: -.08em;
+    }
+    .notfound h1 {
+      margin: 20px 0 12px;
+      font-family: var(--font-serif);
+      font-size: clamp(28px, 5vw, 40px);
+      letter-spacing: -.04em;
+    }
+    .notfound p {
+      margin: 0 auto 26px;
+      max-width: 32ch;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.9;
+    }
+    .notfound .btn { margin: 0 auto; }
+    .notfound-flower {
+      position: absolute;
+      top: 6px;
+      right: 18px;
+      color: var(--pink);
+      font-size: 22px;
+      opacity: .55;
+    }
+  </style>
+</head>
+<body>
+  <main class="notfound">
+    <div class="notfound-inner glass-card">
+      <span class="notfound-flower" aria-hidden="true">✿</span>
+      <p class="notfound-code" aria-hidden="true">404</p>
+      <h1>这一页，去散步了。</h1>
+      <p>你要找的内容不在这里。也许它只是躲进了晚霞里，回首页慢慢找吧。</p>
+      <a class="btn btn-primary" href="/">回到首页 <span aria-hidden="true">♡</span></a>
+    </div>
+  </main>
+</body>
+</html>

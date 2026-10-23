@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 700" role="img" aria-labelledby="portraitTitle portraitDesc">
+  <title id="portraitTitle">胡欣蕊的插画肖像</title>
+  <desc id="portraitDesc">奶油色拱门中的粉色花卉、蕊字与英文名字组成的插画肖像。</desc>
+  <defs>
+    <linearGradient id="paper" x1="48" y1="20" x2="520" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fceef1"/>
+      <stop offset=".52" stop-color="#fae3e8"/>
+      <stop offset="1" stop-color="#f5d9df"/>
+    </linearGradient>
+    <linearGradient id="arch" x1="280" y1="120" x2="280" y2="650" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffcf8"/>
+      <stop offset="1" stop-color="#fff7f1"/>
+    </linearGradient>
+    <radialGradient id="blush" cx="0" cy="0" r="1" gradientTransform="translate(280 410) rotate(90) scale(210)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f9cfd9" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#f9cfd9" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-30%" y="-20%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#9f526b" flood-opacity=".17"/>
+    </filter>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".72" numOctaves="3" seed="9" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+    </filter>
+    <clipPath id="portraitClip"><rect width="560" height="700" rx="0"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#portraitClip)">
+    <rect width="560" height="700" fill="url(#paper)"/>
+    <circle cx="486" cy="80" r="138" fill="#f5c5d1" opacity=".7"/>
+    <circle cx="38" cy="622" r="168" fill="#f8d4c2" opacity=".72"/>
+    <circle cx="520" cy="606" r="104" fill="#eadcf7" opacity=".62"/>
+
+    <g opacity=".7" fill="none">
+      <path d="M22 144c18-8 36-8 54 0M22 160c18-8 36-8 54 0M484 492c18-8 36-8 54 0M484 508c18-8 36-8 54 0" stroke="#cf93a5" stroke-width="1.2" stroke-linecap="round"/>
+    </g>
+
+    <path d="M78 660V242c0-114 90-206 202-206s202 92 202 206v418Z" fill="url(#arch)" stroke="#e8b7c3" stroke-width="1.5" filter="url(#softShadow)"/>
+    <path d="M98 660V245c0-102 81-184 182-184s182 82 182 184v415Z" fill="none" stroke="#efcbd3" stroke-width="1" stroke-dasharray="2 8"/>
+    <ellipse cx="280" cy="395" rx="164" ry="175" fill="url(#blush)"/>
+
+    <g opacity=".72" stroke="#c68498" stroke-width="1.2" fill="none">
+      <path d="M280 112v31M264 128h32"/>
+      <circle cx="280" cy="128" r="2.5" fill="#c68498"/>
+    </g>
+
+    <text x="280" y="173" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="11" letter-spacing="5.4" fill="#a96e7f">A GIRL IN BLOOM</text>
+
+    <text x="280" y="430" text-anchor="middle" font-family="'Songti SC', 'STSong', 'SimSun', Georgia, serif" font-size="176" font-weight="700" fill="#b95c78">蕊</text>
+
+    <path d="M173 461h214" stroke="#e2b3bf" stroke-width="1"/>
+    <circle cx="280" cy="461" r="3.4" fill="#f3b7c6" stroke="#fffaf7" stroke-width="2"/>
+
+    <text x="280" y="503" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13" letter-spacing="8" fill="#986571">HU XINRUI</text>
+    <text x="280" y="530" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="9.5" letter-spacing="3.8" fill="#b08a94">TWENTY ONE · SENIOR YEAR</text>
+
+    <g opacity=".9">
+      <path d="M112 642c34-91 50-167 35-251" fill="none" stroke="#9db08e" stroke-width="2" stroke-linecap="round"/>
+      <path d="M130 577c-22-7-34-20-38-39 20 2 34 13 38 39Z" fill="#b7c5a9"/>
+      <path d="M147 540c24-8 38-23 42-44-23 3-38 15-42 44Z" fill="#a8b99a"/>
+      <path d="M124 618c-19-2-32-11-39-27 17-2 31 7 39 27Z" fill="#c2cfb5"/>
+      <circle cx="148" cy="389" r="17" fill="#f5b9c8"/>
+      <circle cx="170" cy="402" r="14" fill="#f8d0d9"/>
+      <circle cx="135" cy="411" r="13" fill="#f1a9bd"/>
+      <circle cx="155" cy="414" r="7" fill="#fff4e2"/>
+      <path d="M148 427c-2 16-6 31-13 45" stroke="#9db08e" stroke-width="1.6" fill="none"/>
+    </g>
+
+    <g opacity=".92">
+      <path d="M448 642c-19-91-29-163-14-239" fill="none" stroke="#a4b697" stroke-width="2" stroke-linecap="round"/>
+      <path d="M441 578c22-6 35-18 41-36-21 0-35 10-41 36Z" fill="#b8c7ab"/>
+      <path d="M425 541c-23-9-36-25-39-46 22 4 36 17 39 46Z" fill="#a8b99a"/>
+      <path d="M446 615c19-1 32-9 40-24-18-3-32 5-40 24Z" fill="#c5d1b8"/>
+      <path d="M430 421c-12-16-12-30 0-43 13 13 13 27 0 43Z" fill="#f1adc0"/>
+      <path d="M430 421c18-10 32-9 42 3-14 11-28 10-42-3Z" fill="#f7c9d4"/>
+      <path d="M430 421c-17-8-30-6-40 6 13 10 27 8 40-6Z" fill="#f5b9c8"/>
+      <circle cx="430" cy="420" r="5" fill="#fff4e2"/>
+      <path d="M430 424c-2 15-1 30 4 45" stroke="#a4b697" stroke-width="1.6" fill="none"/>
+    </g>
+
+    <g fill="#cc8d9f" opacity=".75">
+      <path d="M356 216c2.4 7.7 5.7 11 13.4 13.4-7.7 2.4-11 5.7-13.4 13.4-2.4-7.7-5.7-11-13.4-13.4 7.7-2.4 11-5.7 13.4-13.4Z"/>
+      <path d="M221 200c1.7 5.4 4 7.7 9.4 9.4-5.4 1.7-7.7 4-9.4 9.4-1.7-5.4-4-7.7-9.4-9.4 5.4-1.7 7.7-4 9.4-9.4Z" opacity=".6"/>
+    </g>
+
+    <g transform="translate(448 206) rotate(13)" opacity=".55">
+      <rect x="-25" y="-15" width="50" height="31" rx="4" fill="#fffaf5" stroke="#d8a7b4"/>
+      <path d="M-9 0h18M-9 7h11" stroke="#d8a7b4" stroke-width="1" stroke-linecap="round"/>
+    </g>
+
+    <rect width="560" height="700" filter="url(#grain)" opacity=".11" style="mix-blend-mode:multiply"/>
+    <rect x="14" y="14" width="532" height="672" rx="2" fill="none" stroke="#fffaf7" stroke-width="1.4" opacity=".8"/>
+  </g>
+</svg>

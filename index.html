@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="胡欣蕊的个人小站：21 岁，牡丹江师范学院大四在读。收藏生活里的柔软瞬间，也记录正在发生的成长。">
+  <meta name="author" content="胡欣蕊">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="theme-color" content="#fff7f9">
+  <link rel="canonical" href="https://kavinst.github.io/">
+  <meta property="og:title" content="胡欣蕊 · 柔软而有力量">
+  <meta property="og:description" content="21 岁，牡丹江师范学院大四在读。把普通日子，过成亮晶晶的小事。">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="胡欣蕊的小宇宙">
+  <meta property="og:url" content="https://kavinst.github.io/">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:image" content="https://kavinst.github.io/assets/og-cover.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="胡欣蕊的个人小站首页">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="胡欣蕊 · 柔软而有力量">
+  <meta name="twitter:description" content="21 岁，牡丹江师范学院大四在读。把普通日子，过成亮晶晶的小事。">
+  <meta name="twitter:image" content="https://kavinst.github.io/assets/og-cover.png">
+  <title>胡欣蕊 · 柔软而有力量</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="assets/og-cover.png">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://kavinst.github.io/#website",
+          "url": "https://kavinst.github.io/",
+          "name": "胡欣蕊的小宇宙",
+          "description": "胡欣蕊的个人小站：21 岁，牡丹江师范学院大四在读。收藏生活里的柔软瞬间，也记录正在发生的成长。",
+          "inLanguage": "zh-CN",
+          "publisher": { "@id": "https://kavinst.github.io/#person" }
+        },
+        {
+          "@type": "Person",
+          "@id": "https://kavinst.github.io/#person",
+          "name": "胡欣蕊",
+          "alternateName": "Hu Xinrui",
+          "url": "https://kavinst.github.io/",
+          "image": "https://kavinst.github.io/assets/og-cover.png",
+          "description": "21 岁，牡丹江师范学院大四在读；喜欢记录生活里的柔软瞬间。",
+          "alumniOf": {
+            "@type": "CollegeOrUniversity",
+            "name": "牡丹江师范学院"
+          }
+        }
+      ]
+    }
+  </script>
+  <script>
+    (function () {
+      document.documentElement.classList.add('js');
+      try {
+        var saved = localStorage.getItem('xinrui-theme');
+        if (saved === 'night') document.documentElement.setAttribute('data-theme', 'night');
+      } catch (e) {}
+    })();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到主要内容</a>
+
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-halo" id="cursor-halo" aria-hidden="true"></div>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-progress-bar"></span></div>
+  <div class="petal-field" id="petal-field" aria-hidden="true"></div>
+  <div class="heart-rain" id="heart-rain" aria-hidden="true"></div>
+
+  <header class="site-header" id="site-header">
+    <nav class="nav shell" aria-label="主导航">
+      <a class="brand" href="#home" aria-label="胡欣蕊的个人小站，返回首页">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 40 40" fill="none">
+            <path d="M20 33c-5.6-4.3-11-9-11-15.2C9 12.6 13 9 17.1 9c1.7 0 3.2.8 4.3 2.1C22.5 9.8 24 9 25.7 9 29.8 9 34 12.6 34 17.8 34 24 28.5 28.7 20 33Z" fill="currentColor" opacity=".96"/>
+            <path d="M20 14.5c.4 4.6 2.4 7.6 6 9.2" stroke="#fff8f5" stroke-width="1.5" stroke-linecap="round" opacity=".8"/>
+          </svg>
+        </span>
+        <span class="brand-type">
+          <strong>XINRUI</strong>
+          <small>胡欣蕊的小宇宙</small>
+        </span>
+      </a>
+
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link is-active" href="#home">首页</a>
+        <a class="nav-link" href="#about">关于我</a>
+        <a class="nav-link" href="#notes">手记</a>
+        <a class="nav-link" href="#moments">碎片</a>
+        <a class="nav-link" href="#journey">时光</a>
+        <a class="nav-link nav-link-sugar" href="#sugar">糖果罐 <span aria-hidden="true">♡</span></a>
+      </div>
+
+      <div class="nav-actions">
+        <button class="icon-btn theme-toggle" id="theme-toggle" type="button" aria-label="切换晚安模式" title="切换晚安模式">
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.7"/>
+            <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/>
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M20.2 15.1A8.6 8.6 0 0 1 8.9 3.8 8.7 8.7 0 1 0 20.2 15.1Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+            <path d="M17.5 3.5v3M16 5h3" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+          </svg>
+        </button>
+        <button class="icon-btn heart-trigger" id="heart-trigger" type="button" aria-label="点一下，有一颗糖" title="点一下，有一颗糖">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="M12 20.3c-2.8-2.2-7.6-6.1-7.6-10.4 0-2.6 2-4.7 4.6-4.7 1.2 0 2.3.6 3 1.6.7-1 1.8-1.6 3-1.6 2.6 0 4.6 2.1 4.6 4.7 0 4.3-4.8 8.2-7.6 10.4Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="nav-links">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="home">
+      <div class="hero-scene" aria-hidden="true">
+        <div class="blob blob-a"></div>
+        <div class="blob blob-b"></div>
+        <div class="blob blob-c"></div>
+        <div class="hero-sparkles" id="hero-sparkles"></div>
+        <div class="hero-arc"></div>
+      </div>
+
+      <div class="hero-inner shell">
+        <div class="hero-copy">
+          <p class="eyebrow hero-eyebrow">
+            <span class="eyebrow-line"></span>
+            PORTFOLIO · 2026
+            <span class="eyebrow-dot"></span>
+            牡丹江，中国
+          </p>
+
+          <h1 class="hero-title">
+            <span class="hero-hi">Hi，我是</span>
+            <span class="hero-name" aria-label="胡欣蕊">
+              <span>胡</span><span>欣</span><span>蕊</span>
+              <svg class="name-spark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+                <path d="M20 2c1.3 9.7 6.3 15.8 16 18-9.7 1.3-15.8 6.3-18 16-1.3-9.7-6.3-15.8-16-18 9.7-1.3 15.8-6.3 18-16Z" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="hero-title-tail">，很高兴认识你。</span>
+          </h1>
+
+          <div class="type-line" aria-live="polite">
+            <span class="type-prefix">正在加载：</span><span id="typewriter" class="type-word"></span><span class="type-caret" aria-hidden="true"></span>
+          </div>
+
+          <p class="hero-desc">
+            21 岁，牡丹江师范学院大四在读。喜欢把普通日子过成亮晶晶的小事，也相信温柔和坚定可以同时住在一个人身上。
+          </p>
+
+          <div class="hero-tags" aria-label="个人信息">
+            <span class="pill">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m3 9 9-5 9 5-9 5-9-5Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M6.5 11v4.6c2.5 1.9 8.5 1.9 11 0V11M21 9v5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+              牡丹江师范学院
+            </span>
+            <span class="pill">21 岁 · 大四</span>
+            <span class="pill pill-accent">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 20.3c-2.8-2.2-7.6-6.1-7.6-10.4 0-2.6 2-4.7 4.6-4.7 1.2 0 2.3.6 3 1.6.7-1 1.8-1.6 3-1.6 2.6 0 4.6 2.1 4.6 4.7 0 4.3-4.8 8.2-7.6 10.4Z" fill="currentColor" opacity=".9"/></svg>
+              高质量女性
+            </span>
+          </div>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#about">
+              读读我的故事
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h11M11 6l4 4-4 4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn-ghost" href="#sugar">
+              给我留颗糖
+              <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 16.9c-2.3-1.8-6.2-5-6.2-8.5 0-2.1 1.6-3.8 3.7-3.8 1 0 1.9.5 2.5 1.3.6-.8 1.5-1.3 2.5-1.3 2.1 0 3.7 1.7 3.7 3.8 0 3.5-3.9 6.7-6.2 8.5Z" fill="currentColor"/></svg>
+            </a>
+          </div>
+
+          <p class="hero-status">
+            <span class="status-dot" aria-hidden="true"></span>
+            大四进行时 · 正在成为更好的自己
+          </p>
+        </div>
+
+        <div class="hero-visual" id="hero-visual">
+          <div class="orbit orbit-a" aria-hidden="true"></div>
+          <div class="orbit orbit-b" aria-hidden="true"></div>
+
+          <figure class="portrait-card" id="portrait-card">
+            <span class="tape tape-top" aria-hidden="true"></span>
+            <span class="tape tape-bottom" aria-hidden="true"></span>
+            <div class="portrait-frame">
+              <img src="assets/portrait.svg" alt="胡欣蕊的专属插画肖像" width="560" height="700">
+              <span class="portrait-glow" aria-hidden="true"></span>
+            </div>
+            <figcaption>
+              <span>XINRUI</span>
+              <span class="portrait-caption-line"></span>
+              <span>21 / BLOOMING</span>
+            </figcaption>
+          </figure>
+
+          <div class="float-sticker sticker-one" aria-hidden="true">
+            <span class="sticker-icon">☀</span>
+            <span><strong>今日份可爱</strong><small>正常营业中</small></span>
+          </div>
+
+          <div class="float-sticker sticker-two" aria-hidden="true">
+            <span class="sticker-spark">✦</span>
+            <span><strong>HIGH QUALITY</strong><small>GIRL ENERGY</small></span>
+          </div>
+
+          <div class="round-stamp" aria-hidden="true">
+            <svg viewBox="0 0 160 160">
+              <defs>
+                <path id="stamp-path" d="M80,80 m-60,0 a60,60 0 1,1 120,0 a60,60 0 1,1 -120,0"/>
+              </defs>
+              <text>
+                <textPath href="#stamp-path">STAY SOFT · STAY STRONG · STAY YOU · </textPath>
+              </text>
+            </svg>
+            <span class="stamp-flower">✿</span>
+          </div>
+
+          <div class="hero-doodle doodle-a" aria-hidden="true">
+            <svg viewBox="0 0 100 100" fill="none">
+              <path d="M50 12c4 20 14 30 34 34-20 4-30 14-34 34-4-20-14-30-34-34 20-4 30-14 34-34Z" stroke="currentColor" stroke-width="1.6"/>
+            </svg>
+          </div>
+          <div class="hero-doodle doodle-b" aria-hidden="true">
+            <svg viewBox="0 0 100 100" fill="none">
+              <path d="M50 14c2 21 10 34 28 41-18 7-26 20-28 41-2-21-10-34-28-41 18-7 26-20 28-41Z" fill="currentColor" opacity=".45"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <a class="scroll-cue" href="#about" aria-label="向下滚动到关于我">
+        <span>SCROLL TO BLOOM</span>
+        <i aria-hidden="true"></i>
+      </a>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>在牡师院的第四年</span><i>✦</i>
+        <span>21 岁的浪漫主义</span><i>✦</i>
+        <span>记录即拥有</span><i>✦</i>
+        <span>温柔且有力量</span><i>✦</i>
+        <span>认真生活的人会发光</span><i>✦</i>
+        <span>在牡师院的第四年</span><i>✦</i>
+        <span>21 岁的浪漫主义</span><i>✦</i>
+        <span>记录即拥有</span><i>✦</i>
+        <span>温柔且有力量</span><i>✦</i>
+        <span>认真生活的人会发光</span><i>✦</i>
+      </div>
+    </div>
+
+    <section class="section about" id="about">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-index"><span>01</span> ABOUT ME</p>
+          <div class="section-heading">
+            <h2>柔软，但<span class="underlined">有力量</span>。</h2>
+            <p>关于我，关于一个正在慢慢长成自己的女孩。</p>
+          </div>
+        </header>
+
+        <div class="about-grid">
+          <article class="about-story glass-card reveal">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <p class="about-lead">你好呀，我是胡欣蕊。</p>
+            <p>一个 21 岁、正在牡丹江师范学院读大四的女孩。如果要用几个词形容自己，大概是：慢热、真诚、细节控，偶尔有点小浪漫。</p>
+            <p>我喜欢记录生活里那些没什么大不了、却会让人偷偷开心的瞬间——一场好看的日落、一杯刚刚好的热饮、朋友随口的一句夸奖。</p>
+            <p>站在大学最后一年，我没有那么着急给自己一个标准答案。想先把眼前的日子过好，把喜欢的事做久一点，再带着一点点勇敢，去见更大的世界。</p>
+            <div class="about-signature">
+              <span class="signature-name">Xinrui</span>
+              <span class="signature-line"></span>
+              <span class="signature-note">a girl in bloom</span>
+            </div>
+            <div class="about-flower" aria-hidden="true">
+              <svg viewBox="0 0 130 130" fill="none">
+                <path d="M65 34c8-21 25-24 31-16 6 9-4 23-25 27 19 3 30 16 24 25-6 8-23 3-31-18-3 22-16 31-24 24-8-7 3-22 22-31-21 5-35-5-30-14 5-10 21-7 33 3Z" fill="currentColor" opacity=".8"/>
+                <circle cx="66" cy="54" r="6" fill="#fff7f9"/>
+              </svg>
+            </div>
+          </article>
+
+          <aside class="about-aside">
+            <div class="keyword-card glass-card reveal" data-delay="80">
+              <div class="card-label">
+                <span>MY KEYWORDS</span>
+                <i aria-hidden="true">✿</i>
+              </div>
+              <div class="keyword-cloud" aria-label="我的关键词">
+                <span>生活记录者</span>
+                <span>浪漫主义</span>
+                <span>细节控</span>
+                <span>甜品雷达</span>
+                <span>慢热但真诚</span>
+                <span>日落收藏家</span>
+                <span>猫猫教</span>
+                <span>大四进行时</span>
+              </div>
+            </div>
+
+            <div class="now-card glass-card reveal" data-delay="160">
+              <div class="card-label">
+                <span>NOW PLAYING</span>
+                <i class="now-dot" aria-hidden="true"></i>
+              </div>
+              <ul class="now-list">
+                <li>
+                  <span class="now-no">01</span>
+                  <div><strong>大四进行时</strong><small>珍惜最后的校园时光</small></div>
+                </li>
+                <li>
+                  <span class="now-no">02</span>
+                  <div><strong>日常收藏家</strong><small>记录、拍照、偶尔发呆</small></div>
+                </li>
+                <li>
+                  <span class="now-no">03</span>
+                  <div><strong>下一站</strong><small>保持期待，去成为更喜欢的自己</small></div>
+                </li>
+              </ul>
+            </div>
+          </aside>
+        </div>
+
+        <div class="stats glass-card reveal">
+          <div class="stat">
+            <strong data-count="21">21</strong><span>岁</span>
+            <small>YEAR OF BLOOM</small>
+          </div>
+          <div class="stat">
+            <strong data-count="4">4</strong><span>年</span>
+            <small>大四进行时</small>
+          </div>
+          <div class="stat">
+            <strong>∞</strong>
+            <small>对生活的热爱</small>
+          </div>
+          <div class="stat">
+            <strong data-count="100">100</strong><span>%</span>
+            <small>真诚与可爱</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section notes" id="notes">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-index"><span>02</span> NOTES</p>
+          <div class="section-heading">
+            <h2>把日子写成<span class="underlined">手记</span>。</h2>
+            <p>一些关于校园、成长和生活的碎碎念。</p>
+          </div>
+        </header>
+
+        <div class="notes-toolbar reveal">
+          <div class="filters" role="group" aria-label="筛选手记">
+            <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">全部</button>
+            <button class="filter" type="button" data-filter="campus" aria-pressed="false">校园</button>
+            <button class="filter" type="button" data-filter="growth" aria-pressed="false">成长</button>
+            <button class="filter" type="button" data-filter="life" aria-pressed="false">生活</button>
+          </div>
+          <p class="notes-count" id="notes-count">共 6 篇手记</p>
+        </div>
+
+        <div class="notes-grid" id="notes-grid">
+          <a class="note-card reveal" href="#notes" data-article="fourth-year" data-category="campus">
+            <div class="note-cover">
+              <img src="assets/cover-campus.svg" alt="" loading="lazy" width="800" height="600">
+              <span class="note-arrow" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M6 14 14 6M8 6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <div class="note-body">
+              <div class="note-meta"><span class="note-cat">校园</span><time datetime="2026-10-18">2026.10.18</time><span>4 min</span></div>
+              <h3>在牡师院的第四年，我学会了慢一点</h3>
+              <p>以前总想快点抵达，后来才发现，有些答案只有在慢慢走的时候才会出现。</p>
+              <span class="note-more">阅读手记 <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+
+          <a class="note-card reveal" href="#notes" data-article="unfinished-flower" data-category="growth" data-delay="80">
+            <div class="note-cover">
+              <img src="assets/cover-flower.svg" alt="" loading="lazy" width="800" height="600">
+              <span class="note-arrow" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M6 14 14 6M8 6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <div class="note-body">
+              <div class="note-meta"><span class="note-cat">成长</span><time datetime="2026-09-27">2026.09.27</time><span>3 min</span></div>
+              <h3>21 岁，允许自己是一朵未完成的花</h3>
+              <p>不急着盛开，不急着被定义。先好好长成自己的样子。</p>
+              <span class="note-more">阅读手记 <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+
+          <a class="note-card reveal" href="#notes" data-article="little-things" data-category="life" data-delay="160">
+            <div class="note-cover">
+              <img src="assets/cover-coffee.svg" alt="" loading="lazy" width="800" height="600">
+              <span class="note-arrow" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M6 14 14 6M8 6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <div class="note-body">
+              <div class="note-meta"><span class="note-cat">生活</span><time datetime="2026-09-12">2026.09.12</time><span>5 min</span></div>
+              <h3>把普通的一天，过成值得收藏的碎片</h3>
+              <p>好吃的早餐、刚好的晚风，还有路边一只愿意让我摸的小猫。</p>
+              <span class="note-more">阅读手记 <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+
+          <a class="note-card reveal" href="#notes" data-article="autumn-latte" data-category="life" data-delay="0">
+            <div class="note-cover">
+              <img src="assets/cover-latte.svg" alt="" loading="lazy" width="800" height="600">
+              <span class="note-arrow" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M6 14 14 6M8 6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <div class="note-body">
+              <div class="note-meta"><span class="note-cat">生活</span><time datetime="2026-08-30">2026.08.30</time><span>3 min</span></div>
+              <h3>秋天的第一杯热拿铁</h3>
+              <p>北方的秋天来得很短，所以每一杯热饮都要认真喝。</p>
+              <span class="note-more">阅读手记 <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+
+          <a class="note-card reveal" href="#notes" data-article="dear-future" data-category="growth" data-delay="80">
+            <div class="note-cover">
+              <img src="assets/cover-night.svg" alt="" loading="lazy" width="800" height="600">
+              <span class="note-arrow" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M6 14 14 6M8 6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <div class="note-body">
+              <div class="note-meta"><span class="note-cat">成长</span><time datetime="2026-08-06">2026.08.06</time><span>4 min</span></div>
+              <h3>给未来的自己：别急，你正在路上</h3>
+              <p>如果暂时看不见终点，就先看看今天的晚霞。</p>
+              <span class="note-more">阅读手记 <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+
+          <a class="note-card reveal" href="#notes" data-article="dorm-night" data-category="campus" data-delay="160">
+            <div class="note-cover">
+              <img src="assets/cover-snow.svg" alt="" loading="lazy" width="800" height="600">
+              <span class="note-arrow" aria-hidden="true">
+                <svg viewBox="0 0 20 20" fill="none"><path d="M6 14 14 6M8 6h6v6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+            <div class="note-body">
+              <div class="note-meta"><span class="note-cat">校园</span><time datetime="2026-07-21">2026.07.21</time><span>4 min</span></div>
+              <h3>宿舍夜谈、晚风和我们的第四年</h3>
+              <p>有些夜晚以后不会再有，所以现在要认真记住。</p>
+              <span class="note-more">阅读手记 <i aria-hidden="true">→</i></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section moments" id="moments">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-index"><span>03</span> LITTLE THINGS</p>
+          <div class="section-heading">
+            <h2>生活碎片，<span class="underlined">亮晶晶</span>。</h2>
+            <p>点开每一格，收集一点今天的可爱。</p>
+          </div>
+        </header>
+
+        <div class="moment-grid">
+          <button class="moment-card moment-tall reveal" type="button" data-full="assets/moment-snow.svg" data-caption="牡丹江的雪，是冬天写来的情书。" aria-label="查看照片：牡丹江的雪">
+            <img src="assets/moment-snow.svg" alt="粉色天空下落雪的校园路灯" loading="lazy" width="600" height="800">
+            <span class="moment-overlay"><small>WINTER · 01</small><strong>雪的来信</strong><i aria-hidden="true">↗</i></span>
+          </button>
+
+          <button class="moment-card reveal" type="button" data-full="assets/moment-cat.svg" data-caption="宿舍楼下的猫，今天也愿意理我。" data-delay="60" aria-label="查看照片：宿舍楼下的猫">
+            <img src="assets/moment-cat.svg" alt="窗台边一只正在打盹的小猫" loading="lazy" width="800" height="600">
+            <span class="moment-overlay"><small>DAILY · 02</small><strong>猫猫巡视员</strong><i aria-hidden="true">↗</i></span>
+          </button>
+
+          <button class="moment-card reveal" type="button" data-full="assets/moment-sunset.svg" data-caption="把晚霞存在相册里，也存进心里。" data-delay="120" aria-label="查看照片：窗边的晚霞">
+            <img src="assets/moment-sunset.svg" alt="窗边粉橘色的日落和一杯热茶" loading="lazy" width="800" height="600">
+            <span class="moment-overlay"><small>GOLDEN HOUR · 03</small><strong>晚霞收藏</strong><i aria-hidden="true">↗</i></span>
+          </button>
+
+          <button class="moment-card moment-wide reveal" type="button" data-full="assets/moment-books.svg" data-caption="书页、热茶，还有一个不用赶路的下午。" aria-label="查看照片：书桌和热茶">
+            <img src="assets/moment-books.svg" alt="洒满阳光的书桌、书本和一杯热茶" loading="lazy" width="1000" height="600">
+            <span class="moment-overlay"><small>SLOW AFTERNOON · 04</small><strong>偷得半日闲</strong><i aria-hidden="true">↗</i></span>
+          </button>
+
+          <button class="moment-card reveal" type="button" data-full="assets/moment-tulips.svg" data-caption="花会谢，但那一刻的开心不会。" data-delay="60" aria-label="查看照片：粉色郁金香">
+            <img src="assets/moment-tulips.svg" alt="奶油色桌面上的一束粉色郁金香" loading="lazy" width="800" height="600">
+            <span class="moment-overlay"><small>FLOWERS · 05</small><strong>今日份浪漫</strong><i aria-hidden="true">↗</i></span>
+          </button>
+
+          <button class="moment-card moment-tall reveal" type="button" data-full="assets/moment-moon.svg" data-caption="回宿舍路上，抬头就看见了月亮。" data-delay="120" aria-label="查看照片：夜空和月亮">
+            <img src="assets/moment-moon.svg" alt="深粉色夜空中的月亮与星星" loading="lazy" width="600" height="800">
+            <span class="moment-overlay"><small>NIGHT WALK · 06</small><strong>月亮收集者</strong><i aria-hidden="true">↗</i></span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section journey" id="journey">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-index"><span>04</span> JOURNEY</p>
+          <div class="section-heading">
+            <h2>每一步，都<span class="underlined">算数</span>。</h2>
+            <p>四年很快，但成长的痕迹很慢、很具体。</p>
+          </div>
+        </header>
+
+        <div class="timeline" id="timeline">
+          <div class="timeline-track" aria-hidden="true"><span id="timeline-fill"></span></div>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"><span></span></div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-ghost" aria-hidden="true">01</span>
+              <p class="timeline-stage">大一 · 初见</p>
+              <h3>带着一点忐忑，推开新世界</h3>
+              <p>来到牡师院，认识了一群后来很重要的人。那时候还不知道，四年会过得这么快。</p>
+              <span class="timeline-tag">FRESHMAN</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"><span></span></div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-ghost" aria-hidden="true">02</span>
+              <p class="timeline-stage">大二 · 发芽</p>
+              <h3>开始认真收藏生活</h3>
+              <p>学会用照片、文字和一点点仪式感，把普通的日子留下来。也慢慢找到让自己发光的小事。</p>
+              <span class="timeline-tag">SPROUTING</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"><span></span></div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-ghost" aria-hidden="true">03</span>
+              <p class="timeline-stage">大三 · 生长</p>
+              <h3>在不确定里，照顾好自己</h3>
+              <p>有忙碌，也有迷茫。开始明白，成长不是一直向上，而是跌跌撞撞也愿意继续走。</p>
+              <span class="timeline-tag">GROWING</span>
+            </div>
+          </article>
+
+          <article class="timeline-item reveal">
+            <div class="timeline-dot" aria-hidden="true"><span></span></div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-ghost" aria-hidden="true">04</span>
+              <p class="timeline-stage">大四 · 绽放</p>
+              <h3>站在路口，依然保留浪漫</h3>
+              <p>面对毕业、选择和下一站，依然想保留好奇、真诚，还有那一点点不肯妥协的浪漫。</p>
+              <span class="timeline-tag">BLOOMING</span>
+            </div>
+          </article>
+
+          <article class="timeline-item timeline-future reveal">
+            <div class="timeline-dot" aria-hidden="true"><span></span></div>
+            <div class="timeline-card glass-card">
+              <span class="timeline-ghost" aria-hidden="true">05</span>
+              <p class="timeline-stage">未来 · 下一站</p>
+              <h3>去更大的世界，也别忘了为什么出发</h3>
+              <p>愿下一段旅程里，依然有花、有光、有说走就走的勇气。</p>
+              <span class="timeline-tag">TO BE CONTINUED</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="quote-band" aria-label="写给欣蕊的话">
+      <div class="quote-orb quote-orb-a" aria-hidden="true"></div>
+      <div class="quote-orb quote-orb-b" aria-hidden="true"></div>
+      <div class="quote-flower quote-flower-a" aria-hidden="true">✿</div>
+      <div class="quote-flower quote-flower-b" aria-hidden="true">❀</div>
+      <div class="shell quote-inner reveal">
+        <span class="quote-mark-big" aria-hidden="true">“</span>
+        <blockquote>愿你柔软，也锋利；<br>被爱，也自由。</blockquote>
+        <p>写给 21 岁的胡欣蕊 <span aria-hidden="true">♡</span></p>
+      </div>
+    </section>
+
+    <section class="section sugar" id="sugar">
+      <div class="shell">
+        <header class="section-head reveal">
+          <p class="section-index"><span>05</span> SUGAR JAR</p>
+          <div class="section-heading">
+            <h2>留一颗<span class="underlined">糖</span>给我。</h2>
+            <p>路过的话，写一句想对我说的话吧。它会被好好收进这只玻璃罐里。</p>
+          </div>
+        </header>
+
+        <div class="sugar-layout">
+          <aside class="jar-panel glass-card reveal">
+            <div class="jar-wrap">
+              <div class="jar" aria-hidden="true">
+                <span class="jar-lid"></span>
+                <div class="jar-body">
+                  <div class="jar-shine"></div>
+                  <div class="jar-candies" id="jar-candies"></div>
+                  <span class="jar-label">SWEET<br>WORDS</span>
+                </div>
+              </div>
+              <div class="jar-shadow" aria-hidden="true"></div>
+            </div>
+            <p class="jar-count">罐子里已有 <strong id="sugar-count">0</strong> 颗糖</p>
+            <p class="jar-sub">每一句温柔，都会被好好收着。</p>
+            <div class="jar-note">
+              <span aria-hidden="true">♡</span>
+              你的悄悄话只保存在这台设备的浏览器里
+            </div>
+          </aside>
+
+          <div class="sugar-main">
+            <div class="sugar-form-card glass-card reveal" data-delay="80">
+              <div class="card-label">
+                <span>DROP A SWEET WORD</span>
+                <i aria-hidden="true">✦</i>
+              </div>
+              <form id="sugar-form" novalidate>
+                <div class="field">
+                  <label for="sugar-name">怎么称呼你</label>
+                  <input id="sugar-name" name="name" type="text" maxlength="16" placeholder="留个名字吧（也可以匿名）" autocomplete="nickname">
+                </div>
+                <div class="field">
+                  <label for="sugar-message">想说的话 <span>*</span></label>
+                  <textarea id="sugar-message" name="message" maxlength="120" rows="4" placeholder="写一颗甜甜的糖……" required></textarea>
+                  <span class="char-count" id="char-count">0 / 120</span>
+                </div>
+                <div class="form-actions">
+                  <p>愿你的每一天，都有一点值得开心的小事。</p>
+                  <button class="btn btn-primary" type="submit">
+                    放进罐子
+                    <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 16.9c-2.3-1.8-6.2-5-6.2-8.5 0-2.1 1.6-3.8 3.7-3.8 1 0 1.9.5 2.5 1.3.6-.8 1.5-1.3 2.5-1.3 2.1 0 3.7 1.7 3.7 3.8 0 3.5-3.9 6.7-6.2 8.5Z" fill="currentColor"/></svg>
+                  </button>
+                </div>
+                <p class="form-error" id="sugar-error" role="alert"></p>
+              </form>
+            </div>
+
+            <div class="fortune-card reveal" data-delay="140">
+              <div class="fortune-head">
+                <span class="fortune-label"><i aria-hidden="true">☀</i> 今日份小确幸</span>
+                <button class="text-btn" id="fortune-btn" type="button">
+                  摇一颗糖
+                  <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M16 7a7 7 0 1 0 .2 5M16 3v4h-4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </button>
+              </div>
+              <p id="fortune-text" aria-live="polite">点击“摇一颗糖”，领取今天的好心情。</p>
+            </div>
+
+            <div class="sugar-responses reveal" data-delay="200">
+              <div class="responses-head">
+                <h3>罐子里的悄悄话</h3>
+                <span id="responses-hint">等你来放第一颗</span>
+              </div>
+              <div class="response-list" id="response-list">
+                <p class="response-empty">还没有糖。要不要做第一个留糖的人？<span aria-hidden="true">♡</span></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a class="brand" href="#home" aria-label="返回首页">
+            <span class="brand-mark" aria-hidden="true">
+              <svg viewBox="0 0 40 40" fill="none">
+                <path d="M20 33c-5.6-4.3-11-9-11-15.2C9 12.6 13 9 17.1 9c1.7 0 3.2.8 4.3 2.1C22.5 9.8 24 9 25.7 9 29.8 9 34 12.6 34 17.8 34 24 28.5 28.7 20 33Z" fill="currentColor"/>
+              </svg>
+            </span>
+            <span class="brand-type"><strong>XINRUI</strong><small>胡欣蕊的小宇宙</small></span>
+          </a>
+          <p>谢谢你看完我的小小宇宙。<br>下次见，记得开心。</p>
+        </div>
+
+        <nav class="footer-nav" aria-label="页脚导航">
+          <a href="#about">关于我</a>
+          <a href="#notes">手记</a>
+          <a href="#moments">碎片</a>
+          <a href="#journey">时光</a>
+          <a href="#sugar">糖果罐</a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        <span>© 2026 胡欣蕊 · 所有可爱都被认真收藏</span>
+        <span class="footer-made">Made with <i aria-hidden="true">♡</i> for Xinrui</span>
+      </div>
+      <p class="footer-credit">Design seed: <a href="https://github.com/medy17/Candy-Glass-React-Portfolio" target="_blank" rel="noopener noreferrer">Candy Glass</a> (MIT) · 本站视觉与代码已作独立改编</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="back-to-top" type="button" aria-label="回到顶部">
+    <svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M10 16V5M5.5 9.5 10 5l4.5 4.5" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    <svg class="top-ring" viewBox="0 0 44 44" aria-hidden="true"><circle cx="22" cy="22" r="20" pathLength="100"/><circle class="top-ring-fill" id="top-ring-fill" cx="22" cy="22" r="20" pathLength="100"/></svg>
+  </button>
+
+  <dialog class="dialog article-dialog" id="article-dialog" aria-labelledby="article-title">
+    <div class="dialog-card article-card">
+      <button class="dialog-close" type="button" data-close-dialog aria-label="关闭文章">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+      </button>
+      <div class="article-cover"><img id="article-cover" alt=""></div>
+      <div class="article-content">
+        <div class="note-meta"><span class="note-cat" id="article-cat"></span><time id="article-date"></time><span id="article-read"></span></div>
+        <h2 id="article-title"></h2>
+        <div class="article-body" id="article-body"></div>
+        <div class="article-end">
+          <span aria-hidden="true">✿</span>
+          <p>谢谢你读到这里。</p>
+          <button class="text-btn" type="button" data-close-dialog>合上手记</button>
+        </div>
+      </div>
+    </div>
+  </dialog>
+
+  <dialog class="dialog lightbox" id="lightbox" aria-label="图片预览">
+    <button class="dialog-close lightbox-close" type="button" data-close-dialog aria-label="关闭图片预览">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+    </button>
+    <figure>
+      <img id="lightbox-img" alt="">
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

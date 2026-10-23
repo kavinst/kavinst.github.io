@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" role="img" aria-labelledby="booksTitle">
+  <title id="booksTitle">阳光下的书桌、翻开的书本、热茶与干花插画</title>
+  <defs>
+    <linearGradient id="desk" x1="80" y1="20" x2="920" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f2dfd1"/>
+      <stop offset=".55" stop-color="#ebd2c3"/>
+      <stop offset="1" stop-color="#dfbfb1"/>
+    </linearGradient>
+    <linearGradient id="page" x1="300" y1="150" x2="550" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#f6e8d9"/>
+    </linearGradient>
+    <linearGradient id="light" x1="670" y1="0" x2="350" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff0cd" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#fff0cd" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="14"/></filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" seed="15"/>
+      <feColorMatrix type="saturate" values="0"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="600" fill="url(#desk)"/>
+  <path d="M1000 0H610L214 600H1000V0Z" fill="url(#light)"/>
+  <g stroke="#d8b9aa" stroke-width="1" opacity=".3">
+    <path d="M0 82h1000M0 208h1000M0 334h1000M0 460h1000"/>
+    <path d="M140 0v600M390 0v600M640 0v600M890 0v600"/>
+  </g>
+
+  <g transform="rotate(-5 360 330)">
+    <ellipse cx="375" cy="461" rx="277" ry="31" fill="#8d625b" opacity=".18" filter="url(#shadow)"/>
+    <path d="M112 402c0-16 9-31 23-38l208-97c17-8 37-8 54 0l207 97c15 7 23 22 23 38v22c0 17-13 30-30 30H142c-17 0-30-13-30-30v-22Z" fill="#d9b49f"/>
+    <path d="M135 372c0-11 6-21 16-26l196-92c15-7 33-7 48 0l195 92c10 5 16 15 16 26v17H135v-17Z" fill="#cba58f"/>
+    <path d="M145 366c0-8 5-16 12-20l185-87c15-7 31-7 46 0l184 87c8 4 12 12 12 20v5H145v-5Z" fill="#fdf6e9"/>
+    <path d="M154 366c0-8 4-15 11-19l173-82c16-8 32-8 48 0l173 82c7 4 11 11 11 19H154Z" fill="url(#page)"/>
+    <path d="M370 264v107" stroke="#dfc6b2" stroke-width="1.5"/>
+    <path d="M370 264c-17-1-36 6-57 17l-128 63v18l185-86v-12ZM370 264c17-1 36 6 57 17l128 63v18l-185-86v-12Z" fill="#f8edde" opacity=".65"/>
+    <g stroke="#bd9a91" stroke-width="1.3" stroke-linecap="round" opacity=".62">
+      <path d="M197 343l135-62M197 356l135-62M197 369l115-53M454 282l122 59M454 297l139 67M454 312l108 52"/>
+    </g>
+    <path d="M510 260c18 4 35 13 51 28l-51 22-23-28 23-22Z" fill="#d695a2" opacity=".85"/>
+    <path d="M510 260v50" stroke="#a86c7d" stroke-width="1" opacity=".4"/>
+    <path d="M282 237c17 0 30 6 40 18-16 8-33 6-50-6l10-12Z" fill="#f1b8c1"/>
+  </g>
+
+  <g transform="rotate(7 748 397)">
+    <ellipse cx="751" cy="443" rx="139" ry="22" fill="#8d625b" opacity=".2" filter="url(#shadow)"/>
+    <rect x="628" y="405" width="242" height="31" rx="4" fill="#a86b79"/>
+    <rect x="640" y="378" width="219" height="29" rx="4" fill="#e9c6b0"/>
+    <rect x="615" y="349" width="255" height="31" rx="4" fill="#7f9b8d"/>
+    <rect x="648" y="322" width="190" height="29" rx="4" fill="#f2d8c7"/>
+    <rect x="631" y="294" width="225" height="30" rx="4" fill="#c5919d"/>
+    <path d="M750 295v139M780 294v142M705 294v140" stroke="#f8e9da" stroke-width="1.2" opacity=".55"/>
+    <path d="M809 293c20-34 36-39 49-16l-7 60c-14 8-28 3-42-14v-30Z" fill="#f4c5cb" opacity=".9"/>
+  </g>
+
+  <g>
+    <ellipse cx="833" cy="237" rx="91" ry="15" fill="#8e655f" opacity=".17" filter="url(#shadow)"/>
+    <ellipse cx="833" cy="225" rx="81" ry="15" fill="#f7e9dc"/>
+    <path d="M774 166h117l-10 48c-2 17-18 27-40 27h-19c-22 0-37-10-40-27l-8-48Z" fill="#fff8ef" stroke="#dbc0af" stroke-width="1.4"/>
+    <path d="M888 178c28-4 45 8 43 30-2 20-21 31-48 25" fill="none" stroke="#f2ddcd" stroke-width="11" stroke-linecap="round"/>
+    <path d="M888 178c28-4 45 8 43 30-2 20-21 31-48 25" fill="none" stroke="#d1b3a4" stroke-width="1.4"/>
+    <ellipse cx="833" cy="166" rx="58" ry="12" fill="#fef9f1" stroke="#dbc0af"/>
+    <ellipse cx="833" cy="166" rx="47" ry="8" fill="#a7785e"/>
+    <g stroke="#c9aa9f" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".55">
+      <path d="M807 141c-9-14 8-20 0-36M834 137c-8-13 7-19 1-32M861 142c-7-12 6-17 1-28"/>
+    </g>
+    <circle cx="757" cy="217" r="3.5" fill="#d9b39d"/>
+    <circle cx="777" cy="231" r="2.3" fill="#d9b39d"/>
+  </g>
+
+  <g>
+    <path d="M191 295c-5-72 10-129 47-174" fill="none" stroke="#8b9a7e" stroke-width="2.3"/>
+    <path d="M197 245c-25-5-43-20-51-44 25-1 44 14 51 44Z" fill="#adb892"/>
+    <path d="M211 208c23-7 39-23 45-47-24 1-41 18-45 47Z" fill="#9daa89"/>
+    <g transform="translate(244 104) rotate(12)">
+      <circle cx="-15" cy="-10" r="16" fill="#eaa8b4"/>
+      <circle cx="12" cy="-18" r="14" fill="#f5c5cd"/>
+      <circle cx="23" cy="4" r="12" fill="#d894a5"/>
+      <circle cx="0" cy="12" r="13" fill="#f2b7c1"/>
+      <circle cx="2" cy="-3" r="5" fill="#e8be91"/>
+    </g>
+  </g>
+
+  <g transform="translate(470 493) rotate(-31)">
+    <rect x="0" y="0" width="151" height="8" rx="4" fill="#b88f7c"/>
+    <rect x="142" y="0" width="18" height="8" rx="4" fill="#d7b49e"/>
+    <path d="M160 1.5 174 4l-14 2.5V1.5Z" fill="#6e5a51"/>
+  </g>
+  <g transform="translate(571 497) rotate(-10)">
+    <rect x="0" y="0" width="39" height="16" rx="8" fill="#e9a3b1"/>
+    <path d="M10 8h19" stroke="#c47c8d" stroke-width="1.2" stroke-linecap="round"/>
+  </g>
+
+  <text x="64" y="529" font-family="Georgia, 'Times New Roman', serif" font-size="10" letter-spacing="4.2" fill="#a17f75">PAGES &amp; TEA</text>
+  <rect width="1000" height="600" filter="url(#grain)" opacity=".12" style="mix-blend-mode:multiply"/>
+  <rect x="12" y="12" width="976" height="576" rx="2" fill="none" stroke="#fff8ef" stroke-width="1.2" opacity=".34"/>
+</svg>
