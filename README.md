@@ -33,6 +33,7 @@ xinrui-blog/
 ├─ 404.html                自定义 404 页面
 ├─ robots.txt              搜索引擎抓取规则
 ├─ sitemap.xml             站点地图
+├─ 905b240ff00b8525ebf5d262cd58d4a2.txt  IndexNow 站点验证文件
 ├─ .nojekyll               告诉 GitHub Pages 不要用 Jekyll 处理静态文件
 ├─ css/
 │  └─ style.css            主题变量、布局、动效、响应式、打印样式
@@ -140,15 +141,17 @@ xinrui-blog/
 
 ## 让搜索引擎收录
 
-页面已经准备好了 `robots.txt`、`sitemap.xml`、canonical、Open Graph 分享图和 Person 结构化数据。接下来需要主动把网址提交给搜索引擎：
+页面已经准备好了 `robots.txt`、`sitemap.xml`、canonical、Open Graph 分享图和 Person 结构化数据。**2026-10-23 已通过 IndexNow 提交首页**（接口返回 `202 Accepted`），Bing 等参与该协议的搜索引擎会开始抓取。
+
+仍建议手动完成以下三处，覆盖范围更广：
 
 1. **Google Search Console**：<https://search.google.com/search-console>，添加 `https://kavinst.github.io/`，用“HTML 标记”或“HTML 文件”方式验证，然后在“站点地图”里提交 `sitemap.xml`。
-2. **Bing Webmaster Tools**：<https://www.bing.com/webmasters>，添加站点并提交 sitemap；也可以使用 IndexNow。
-3. **百度搜索资源平台**：<https://ziyuan.baidu.com/>，添加站点、完成验证后提交 sitemap。
+2. **Bing Webmaster Tools**：<https://www.bing.com/webmasters>，添加站点并提交 sitemap；IndexNow 已在用，这里可以查看抓取状态。
+3. **百度搜索资源平台**：<https://ziyuan.baidu.com/>，添加站点、完成验证后提交 sitemap。百度需要登录账号并验证站点，无法由脚本代做。
 
 提交后不会立刻出现在搜索结果里，通常需要几天到几周；新站、竞争较大的名字会更慢。只要站点持续可访问、内容稳定，搜索引擎会逐步抓取。想要更像正式个人站，可以在 GitHub Pages 设置里绑定自己的域名。
 
-> 说明：`kavinst.github.io` 是 GitHub 免费二级域名，已启用 HTTPS，可以被搜索引擎正常收录。
+> 说明：`kavinst.github.io` 是 GitHub 免费二级域名，已启用 HTTPS，可以被搜索引擎正常收录。中国大陆网络访问 GitHub Pages 偶尔会慢或失败；如果主要给国内朋友看，后续可换国内静态托管或绑定自己的域名。
 
 ## 浏览器支持
 
